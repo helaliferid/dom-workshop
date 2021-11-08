@@ -1,0 +1,5 @@
+class Compte{
+
+}
+
+export Compte;

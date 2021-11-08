@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
     "parcel": "^2.0.0"
   }
 }
